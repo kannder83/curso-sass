@@ -1,0 +1,8 @@
+//Declarar antes ya que pueden ser utilizadas adelante.
+@import "./lib/header";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
