@@ -1,0 +1,16 @@
+//Configuración de los botones
+
+.alert {
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+  background-color: $color-alert-focus;
+  border: 3px solid $color-alert-border;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.alert:hover {
+  background-color: $color-alert-hover;
+}
