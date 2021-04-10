@@ -1,0 +1,40 @@
+section {
+  @include max-width();
+  background-color: blue;
+  @include respond-to(800px) {
+    background-color: red;
+  }
+  background-color: $color-lightgrey;
+  padding: $padding;
+}
+
+.max-width--huge {
+  @include max-width(80%);
+}
+
+header {
+  background-color: $color-brand;
+}
+
+.gris-normal {
+  padding: $padding;
+  background-color: $color-lightgrey;
+}
+
+.gris-claro {
+  padding: $padding;
+  background-color: $color-gray-lighting;
+}
+
+//Creación de mapas / array
+
+$fs: (
+  big: 24px,
+  normal: 16px,
+  small: 14px,
+  x-small: 12px,
+);
+
+p {
+  font-size: map-get($fs, big);
+}

@@ -3,3 +3,12 @@
 $color-alert-focus: yellow;
 $color-alert-hover: rgb(161, 161, 64);
 $color-alert-border: rgb(226, 226, 197);
+$color-lightgrey: gray;
+$color-brand: green;
+
+//Utiilzar la función para aclarar:
+$color-gray-lighting: lighten($color-lightgrey, 25%);
+
+//Constantes:
+$page-max-widht: 1000px;
+$padding: 10px;
